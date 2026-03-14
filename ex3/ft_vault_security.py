@@ -11,7 +11,7 @@ if __name__ == "__main__":
             print(data)
         print()
         print("SECURE PRESERVATION:")
-        with open("file.txt", "w") as f:
+        with open("new_classified_data.txt", "w") as f:
             f.write("[CLASSIFIED] New security protocols archived\n")
         print("[CLASSIFIED] New security protocols archived")
         print("Vault automatically sealed upon completion")

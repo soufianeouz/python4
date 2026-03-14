@@ -17,7 +17,6 @@ def crisis_handler(file_name: str) -> None:
         print(f"CRISIS ALERT: Attempting access to '{file_name}' ...")
         print(f"Unexpected error: {type(f).__name__} - {f}")
         print("STATUS: Crisis handled, security maintained")
-    
 
 
 if __name__ == "__main__":

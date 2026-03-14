@@ -1,5 +1,4 @@
 import sys
-
 if __name__ == "__main__":
     print("=== CYBER ARCHIVES - COMMUNICATION SYSTEM ===")
     print()
@@ -7,7 +6,10 @@ if __name__ == "__main__":
     status_rep = input("Input Stream active. Enter status report: ")
     print()
     print(f"[STANDARD] Archive status from {id}: {status_rep}")
-    print(f"[ALERT] System diagnostic: Communication channels verified", file = sys.stderr)
+    print(
+        "[ALERT] System diagnostic: Communication channels verified",
+        file=sys.stderr
+    )
     print("[STANDARD] Data transmission complete")
     print()
     print("Three-channel communication test successful.")
